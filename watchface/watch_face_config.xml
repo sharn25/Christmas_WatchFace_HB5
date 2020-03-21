@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <TemplateWatch dpi="120">
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage align="DIGIT_ALIGN_CENTER_LEFT" y="0" type="static" offset_distance_y="0" data_type="DATA_BACKGROUND" x="0" filter_color="0" label="layer 14 - Backgound" res_dir_id="A015"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" y="48" type="static" offset_distance_y="0" data_type="DATA_HOUR_HIGH" x="3" filter_color="0" label="layer 13 - Hour_High" res_dir_id="A014"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" y="48" type="static" offset_distance_y="0" data_type="DATA_HOUR_LOW" x="30" filter_color="0" label="layer 12 - Hour_Low" res_dir_id="A013"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" y="48" type="static" offset_distance_y="0" data_type="DATA_MINITE_HIGH" x="63" filter_color="0" label="layer 11 - Mintue_High" res_dir_id="A012"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" y="48" type="static" offset_distance_y="0" data_type="DATA_MINITE_LOW" x="90" filter_color="0" label="layer 10 - Mintue_Low" res_dir_id="A011"/>
+        </Widget>
+        <Widget widget_type="MUTILLANGUAGE">
+            <MutilLanguage align="DIGIT_ALIGN_CENTER_LEFT" y="78" type="static" data_type="DATA_WEEK" support_languages="en" x="5" filter_color="0" default_language="en" single_language_img_num="7" label="layer 9 - Week" res_dir_id="A010"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget mutil_widget_count="3" data_type1="DATA_SEPAR" align="DIGIT_ALIGN_CENTER_RIGHT" y="78" type="static" offset_distance_y="0" data_type="DATA_DATE" x="114" filter_color="0" data_type2="DATA_MONTH" internal_position="DIGIT_ALIGN_CENTER_LEFT" label="layer 8 - Date_Month" res_dir_id="A007"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget mutil_widget_count="3" data_type1="DATA_DATE" align="DIGIT_ALIGN_CENTER_RIGHT" y="78" type="static" offset_distance_y="0" data_type="DATA_SEPAR" x="114" filter_color="0" data_type2="DATA_MONTH" internal_position="DIGIT_ALIGN_CENTER_CENTER" res_dir_id="A008"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget mutil_widget_count="3" data_type1="DATA_DATE" align="DIGIT_ALIGN_CENTER_RIGHT" y="78" type="static" offset_distance_y="0" data_type="DATA_MONTH" x="114" filter_color="0" data_type2="DATA_SEPAR" internal_position="DIGIT_ALIGN_CENTER_RIGHT" res_dir_id="A009"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage align="DIGIT_ALIGN_CENTER_CENTER" y="36" type="static" offset_distance_y="0" data_type="DATA_AMPM" x="105" filter_color="0" label="layer 7 - AM_PM" res_dir_id="A006"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage align="DIGIT_ALIGN_CENTER_LEFT" y="105" type="static" offset_distance_y="0" data_type="DATA_KCALICON" x="7" filter_color="63488" label="layer 6 - Cals" res_dir_id="A005"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage align="DIGIT_ALIGN_CENTER_LEFT" y="131" type="static" offset_distance_y="0" data_type="DATA_HEARTICON" x="7" filter_color="63488" label="layer 5 - Heart" res_dir_id="A004"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage align="DIGIT_ALIGN_CENTER_LEFT" y="155" type="static" offset_distance_y="0" data_type="DATA_STEPICON" x="7" filter_color="63488" label="layer 4 - Steps" res_dir_id="A003"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" y="157" type="static" offset_distance_y="0" data_type="DATA_STEPS" x="30" filter_color="0" label="layer 3 - Step_value" res_dir_id="A002"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" y="132" type="static" offset_distance_y="0" data_type="DATA_HEARTRATE" x="30" filter_color="0" label="layer 2 - Heart_value" res_dir_id="A001"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" y="106" type="static" offset_distance_y="0" data_type="DATA_CALORIE" x="30" filter_color="0" label="layer 1 - Cal_value" res_dir_id="A000"/>
+        </Widget>
+    </TemplateWatch>
+</providers>
